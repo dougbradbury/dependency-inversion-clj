@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot dip2.core
   :target-path "target/%s"
+  :plugins [[lein-ns-dep-graph "0.1.0-SNAPSHOT"]]
   :profiles {:uberjar {:aot :all}})
