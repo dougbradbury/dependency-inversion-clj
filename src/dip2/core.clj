@@ -1,6 +1,5 @@
 (ns dip2.core
   (:require
-  [dip2.square]
   [dip2.controller :as ctl])
   (:gen-class))
 
