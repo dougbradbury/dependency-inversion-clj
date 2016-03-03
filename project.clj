@@ -3,8 +3,9 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [ [speclj "3.3.1"][org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot dip2.core
   :target-path "target/%s"
-  :plugins [[lein-ns-dep-graph "0.1.0-SNAPSHOT"]]
+            :test-paths ["spec"]
+  :plugins [ [speclj "3.3.1"][lein-ns-dep-graph "0.1.0-SNAPSHOT"]]
   :profiles {:uberjar {:aot :all}})

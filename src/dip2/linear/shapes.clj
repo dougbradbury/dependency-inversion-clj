@@ -1,9 +1,9 @@
-(ns dip2.linear)
+(ns dip2.linear.shapes)
 
 (defmulti printit :type)
 
 (defmethod printit :default [shape]
-            (println "default"))
+  (println "default"))
 
 (defmethod printit :square [shape]
-  (println "That thing is square"))
+  (println "That thing is square [] boom"))
