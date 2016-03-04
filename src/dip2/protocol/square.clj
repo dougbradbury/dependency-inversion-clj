@@ -4,4 +4,4 @@
 (deftype Square [params]
   shape/Shape
   (printit [shape] (println "Printing a protocol square"))
-  (area [shape] "2 feet squared"))
+  (area [shape] "2 feet sq"))
