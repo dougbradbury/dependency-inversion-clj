@@ -3,4 +3,5 @@
     [dip2.shape :as interface]))
 
 (defn execute[shape]
+  (println "************* Inverted Controller ***************")
   (interface/printit shape))

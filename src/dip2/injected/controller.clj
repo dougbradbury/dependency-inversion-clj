@@ -2,4 +2,5 @@
   )
 
 (defn execute[printer shape]
+  (println "************* Injected Controller ***************")
   (printer shape))

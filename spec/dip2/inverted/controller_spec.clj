@@ -4,7 +4,7 @@
             [dip2.shape :as shape]))
 
 (describe "inverted-test"
-  (it "works wit a mock"
+  (it "works with a mock"
            (with-redefs [dip2.shape/printit (constantly true)]
     (should= true (execute {:type :square})))))
 
