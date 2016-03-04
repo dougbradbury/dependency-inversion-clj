@@ -3,4 +3,5 @@
 (defmulti printit :type)
 
 (defmethod printit :default [shape]
-            (println "default"))
+  (println "default")
+  false)

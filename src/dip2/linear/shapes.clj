@@ -6,4 +6,4 @@
   (println "default"))
 
 (defmethod printit :square [shape]
-  (println "That thing is square [] boom"))
+  (println "That thing is square [] "))

@@ -4,8 +4,7 @@
   [dip2.inverted.controller :as inverted]
   [dip2.injected.controller :as injected]
   [dip2.shape :as shape]
-  [dip2.square] ;just so it compiles
-    )
+  [dip2.square]) ;just so it compiles
   (:gen-class))
 
 (defn -main
